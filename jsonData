@@ -1,12 +1,12 @@
 {
     "categories": [
       { "name": "Dogs", "image": "./images/dogs/dog1.jpg" },
-      { "name": "Cats", "image": "/images/cats/cat1.jpg" },
-      { "name": "Birds", "image": "/images/birds/bird1.jpg" }
+      { "name": "Cats", "image": "./images/cats/cat1.jpg" },
+      { "name": "Birds", "image": "./images/birds/bird1.jpg" }
     ],
     "products": {
       "Dogs": [
-        { "id": 1, "name": "Dog Toy", "price": 50, "image": "/images/dogs/toy.jpg" },
+        { "id": 1, "name": "Dog Toy", "price": 50, "image": "./images/dogs/toy.jpg" },
         { "id": 2, "name": "Dog Food", "price": 25, "image": "/images/dogs/food.jpg" }
       ],
       "Cats": [
@@ -14,17 +14,17 @@
         { "id": 4, "name": "Cat Food", "price": 20, "image": "/images/cats/food.jpg" }
       ],
       "Birds": [
-        { "id": 5, "name": "Bird Toy", "price": 30, "image": "/images/birds/toy.jpg" },
-        { "id": 6, "name": "Bird Food", "price": 15, "image": "/images/birds/food.jpg" }
+        { "id": 5, "name": "Bird Toy", "price": 30, "image": "./images/birds/toy.jpg" },
+        { "id": 6, "name": "Bird Food", "price": 15, "image": "./images/birds/food.jpg" }
       ]
     },
     "sliderData": [
-      { "id": 1, "name": "Featured Dog Toy", "image": "/images/dogs/toy.jpg" },
-      { "id": 2, "name": "Featured Cat Food", "image": "/images/cats/toy.jpg" },
-      { "id": 3, "name": "Featured Bird Toy", "image": "/images/birds/toy.jpg" },
-      { "id": 4, "name": "Featured Dog Toy1", "image": "/images/dogs/food.jpg" },
-      { "id": 5, "name": "Featured Cat Food1", "image": "/images/cats/food.jpg" },
-      { "id": 6, "name": "Featured Bird Toy1", "image": "/images/birds/food.jpg" }
+      { "id": 1, "name": "Featured Dog Toy", "image": "./images/dogs/toy.jpg" },
+      { "id": 2, "name": "Featured Cat Food", "image": "./images/cats/toy.jpg" },
+      { "id": 3, "name": "Featured Bird Toy", "image": "./images/birds/toy.jpg" },
+      { "id": 4, "name": "Featured Dog Toy1", "image": "./images/dogs/food.jpg" },
+      { "id": 5, "name": "Featured Cat Food1", "image": "./images/cats/food.jpg" },
+      { "id": 6, "name": "Featured Bird Toy1", "image": "./images/birds/food.jpg" }
 
     ]
   }
