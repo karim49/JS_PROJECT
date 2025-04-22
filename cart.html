@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pet Store - Cart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+
+      <nav>
+        <div class="nav-container">
+          <div class="logo">
+            <img src="images/petLogo.jpg" alt="Pet Store Logo" style="height: 50px; vertical-align: middle;">
+            Pet Shop
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="cart" class="page active">
+        <div class="cart">
+          <h2>Your Cart</h2>
+          <div class="cart-items" id="cart-items">
+          </div>
+          <div id="cart-total"></div>
+          <button id="proceed-to-payment" onclick="location.href='payment.html'">Proceed to Payment</button>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>
+      </p>
+      <p>
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="images/icons8-facebook-48.png" alt="Facebook" style="vertical-align: middle;">
+        </a> |
+        <a href="https://www.youtube.com" target="_blank">
+          <img src="images/icons8-youtube-48.png" alt="YouTube" style="vertical-align: middle;">
+        </a> |
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="images/icons8-instagram-logo-48.png" alt="Instagram" style="vertical-align: middle;">
+        </a>
+      </p>
+      <a href="#">Help</a> | <a href="#">Contact Us</a>
+      <p>&copy; 2025 Pet Store. All rights reserved.</p>
+
+    </footer>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

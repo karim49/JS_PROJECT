@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pet Store - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <nav>
+        <div class="nav-container">
+          <div class="logo">
+            <img src="images/petLogo.jpg" alt="Pet Store Logo" style="height: 50px; vertical-align: middle;">
+            Pet Shop
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="banner" id="banner">
+        <div class="slider-container">
+          <div class="slider" id="slider">
+          </div>
+          <button class="slider-btn left" onclick="prevSlide()">&#10094;</button>
+          <button class="slider-btn right" onclick="nextSlide()">&#10095;</button>
+        </div>
+      </section>
+
+      <section id="home" class="page active">
+        <section class="categories">
+          <h2>Categories</h2>
+          <div class="category-container">
+          </div>
+        </section>
+        <section class="products" id="products">
+          <p style="text-align:center; color:#777; font-size:18px; padding:20px;">
+            Please select a category to view products.
+          </p>
+        </section>
+      </section>
+    </div>
+
+    <footer>
+      <p>
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="images/icons8-facebook-48.png" alt="Facebook" style="vertical-align: middle;">
+        </a> |
+        <a href="https://www.youtube.com" target="_blank">
+          <img src="images/icons8-youtube-48.png" alt="YouTube" style="vertical-align: middle;">
+        </a> |
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="images/icons8-instagram-logo-48.png" alt="Instagram" style="vertical-align: middle;">
+        </a>
+      </p>
+      <p>
+        <a href="#">Help</a> | <a href="#">Contact Us</a>
+      </p>
+      <p>&copy; 2025 Pet Store. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

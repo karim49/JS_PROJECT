@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pet Store - Payment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <nav>
+        <div class="nav-container">
+          <div class="logo">
+            <img src="images/petLogo.jpg" alt="Pet Store Logo" style="height: 50px; vertical-align: middle;">
+            Pet Shop
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="payment" class="page active">
+        <div class="payment">
+          <h2>Payment Information</h2>
+          <div class="invoice-breakdown" id="invoice-breakdown"></div>
+          <form id="payment-form">
+            <label for="address">Delivery Address:</label>
+            <input type="text" id="address" placeholder="Enter your delivery address" required />
+            <label for="payment-method">Payment Method:</label>
+            <select id="payment-method" required>
+              <option value="cod">Cash on Delivery</option>
+              <option value="credit">Credit/Debit Card</option>
+            </select>
+            <div id="card-info" style="display: none;">
+              <label for="card-number">Card Number:</label>
+              <input type="text" id="card-number" placeholder="Enter your card number" maxlength="16" />
+              <label for="card-expiry">Expiry Date (MM/YY):</label>
+              <input type="text" id="card-expiry" placeholder="MM/YY" maxlength="5" />
+              <label for="card-cvc">CVC:</label>
+              <input type="text" id="card-cvc" placeholder="Enter card CVC" maxlength="3" />
+            </div>
+            <button type="submit">Submit Payment</button>
+          </form>
+          <div id="order-confirmation" style="display: none;">
+            <h3>Your Order is Confirmed!</h3>
+            <p>Order Number: <span id="order-number"></span></p>
+            <p>Estimated Delivery: <span id="estimated-delivery"></span></p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>
+      </p>
+      <p>
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="images/icons8-facebook-48.png" alt="Facebook" style="vertical-align: middle;">
+        </a> |
+        <a href="https://www.youtube.com" target="_blank">
+          <img src="images/icons8-youtube-48.png" alt="YouTube" style="vertical-align: middle;">
+        </a> |
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="images/icons8-instagram-logo-48.png" alt="Instagram" style="vertical-align: middle;">
+        </a>
+      </p>
+      <a href="#">Help</a> | <a href="#">Contact Us</a>
+      <p>&copy; 2025 Pet Store. All rights reserved.</p>
+
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+
+</html>
